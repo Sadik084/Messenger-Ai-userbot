@@ -44,6 +44,14 @@ To login as a Facebook user, you need a valid session from your own account.
 
 ## 🚀 Run the Bot
 
+Before running the bot, make sure to:
+
+- 🔑 Get your **Gemini AI API key** from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- 🌐 Get your **MongoDB cluster URI** from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- 🔐 Place your `session.json` in the root folder
+
+Then run:
+
 ```bash
 python bot.py
 ```
@@ -63,7 +71,7 @@ Logged in as: Your Name
 | `/talk hi` | Start a conversation with the bot    |
 | `/reset`   | Clear previous memory (forget convo) |
 
-> ⚠️ Only replies if your message **starts with `/talk`**
+> ⚠️ Only replies if your message **starts with `/talk`**  
 > 💬 Works **only in group chats** (not inbox)
 
 ---
@@ -87,7 +95,7 @@ pymongo
 
 ## 🤝 Special Thanks
 
-* 🧠 `fbchat_muqit` for the Messenger Api → [[github.com/togashigreat/fbchat-muqit](https://github.com/togashigreat/fbchat-muqit)]
+* 🧠 `fbchat_muqit` for the Messenger API → [github.com/togashigreat/fbchat-muqit](https://github.com/togashigreat/fbchat-muqit)
 * 🧪 Google Gemini AI for the LLM API
 * 🔒 C3C FBSTATE Extension for login cookies
 
