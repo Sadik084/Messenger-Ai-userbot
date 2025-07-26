@@ -1,0 +1,3 @@
+fbchat_muqit
+google-generativeai
+pymongo
